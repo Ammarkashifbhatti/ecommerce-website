@@ -24,8 +24,8 @@ const Cart = ({ cartItems, handleRemove, handleQuantityChange }) => {
               <button onClick={() => handleRemove(item.id)}>Remove</button>
             </div>
           ))}
-          <div className='checkout-button'>
-            <button>
+          <div className='checkout-button-container'>
+            <button className='checkout-button'>
               <Link to="/Checkout"><p>Checkout</p></Link>
             </button>
           </div>

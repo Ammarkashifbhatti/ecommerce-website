@@ -16,7 +16,9 @@
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
     width: 400px;
   }
-  
+  .checkout-container h1{
+    color: rgba(163, 11, 11, 0.523)
+   }
   .checkout-form h1 {
     text-align: center;
     margin-bottom: 20px;
