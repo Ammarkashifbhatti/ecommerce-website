@@ -1,0 +1,87 @@
+/* Product.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+  
+ .product-container h1 {
+    text-align: center;
+    color: #090000;
+  }
+  .product-container {
+    background-color:#647980; /* Light gray */
+    min-height: 100vh; /* Ensure it covers the full height */
+    padding: 20px;
+  }
+  .product-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .product-item {
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 200px; /* Increase width for better layout */
+    height: 300px; /* Ensure enough space for image + text */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .product-list .product-item img {
+    width: 100%;
+  height: auto;
+   /* Adjust height for better coverage */
+  object-fit: contains; /* Ensures the image covers the area */
+  border-radius: 10px;
+    
+  }
+  
+  
+  .product-item:hover {
+    transform: scale(1.05);
+  }
+  
+  .product-item img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 5px;
+
+  }
+  
+  .product-item h3 {
+    margin: 10px 0;
+    color: #333;
+  }
+  
+  .product-item p {
+    font-size: 16px;
+    color: #666;
+  }
+  
+  button {
+    background-color: #0fe645;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
