@@ -1,5 +1,5 @@
 import React from 'react';
-import { color, motion } from "framer-motion";
+import {  motion } from "framer-motion";
 import './Home.css';
 import product1 from '../assets/product1.jpg';
 import image2 from '../assets/image2.webp'; // Ensure the correct path
